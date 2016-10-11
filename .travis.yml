@@ -23,7 +23,7 @@ cache:
     - $HOME/.gradle
 
 before_install:
-  - mkdir "$HOME/android/licenses" || true
-  - echo -e "\ne6b7c2ab7fa2298c15165e9583d0acf0b04a2232" > "$HOME/android/licenses/android-sdk-license"
-  - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$HOME/android/licenses/android-sdk-license"
-  - echo -e "\n504667f4c0de7af1a06de9f4b1727b84351f2910" > "$HOME/android/licenses/android-sdk-preview-license"
+  - mkdir "$HOME/.android/licenses" || true
+  - echo -e "\ne6b7c2ab7fa2298c15165e9583d0acf0b04a2232" > "$HOME/.android/licenses/android-sdk-license"
+  - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$HOME/.android/licenses/android-sdk-license"
+  - echo -e "\n504667f4c0de7af1a06de9f4b1727b84351f2910" > "$HOME/.android/licenses/android-sdk-preview-license"
